@@ -1,0 +1,116 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AVOSCloud (11.3.0)
+  - Bugly (2.5.0)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (6.1.1)
+  - JMRoundedCorner (1.9.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.6)
+  - ReactiveObjC (3.1.0)
+  - Reveal-SDK (17)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - TYPagerController (2.1.2)
+  - TZImagePickerController (2.2.6)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVOSCloud
+  - Bugly
+  - DZNEmptyDataSet
+  - IQKeyboardManager
+  - JMRoundedCorner (from `https://github.com/raozhizhen/JMRoundedCorner.git`, tag `1.9.6`)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - ReactiveObjC
+  - Reveal-SDK
+  - SDWebImage
+  - TYPagerController
+  - TZImagePickerController
+  - YYWebImage (from `https://github.com/raozhizhen/YYWebImage.git`, tag `1.0.5`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AVOSCloud
+    - Bugly
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - Reveal-SDK
+    - SDWebImage
+    - TYPagerController
+    - TZImagePickerController
+    - YYCache
+    - YYImage
+
+EXTERNAL SOURCES:
+  JMRoundedCorner:
+    :git: https://github.com/raozhizhen/JMRoundedCorner.git
+    :tag: 1.9.6
+  YYWebImage:
+    :git: https://github.com/raozhizhen/YYWebImage.git
+    :tag: 1.0.5
+
+CHECKOUT OPTIONS:
+  JMRoundedCorner:
+    :git: https://github.com/raozhizhen/JMRoundedCorner.git
+    :tag: 1.9.6
+  YYWebImage:
+    :git: https://github.com/raozhizhen/YYWebImage.git
+    :tag: 1.0.5
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AVOSCloud: 6b3711de627beb1a26232b496a2822d713e3b8d5
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  JMRoundedCorner: be3809e2e536939bc0b012d68eb943d870e5b1ed
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  Reveal-SDK: a6df49f47319bd19a110c960c498af32df72c0af
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+  TZImagePickerController: 3b25b39ba2e28984fb51bbf3ca5187ffccebb239
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 3d5cf470fc44e1afe71c94e384838a9bf98fed65
+
+COCOAPODS: 1.5.2
